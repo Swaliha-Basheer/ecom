@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Migrations (optional — keep if team project)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Coverage / Testing
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# PostgreSQL
+*.pgsql
+
+# Node (if any frontend inside backend)
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Celery
+celerybeat-schedule
+
+# Logs
+logs/
+*.log
