@@ -1,65 +1,59 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
-
-# Virtual Environment
-venv/
-env/
-ENV/
-.venv/
-
-# Django
-*.log
-*.pot
-*.pyc
-db.sqlite3
-media/
-staticfiles/
-
-# Environment variables
-.env
-.env.*
-
-# Migrations (optional — keep if team project)
-# */migrations/*
-# !*/migrations/__init__.py
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
-
-# OS
-Thumbs.db
-
-# Coverage / Testing
-.coverage
-coverage.xml
-htmlcov/
-.pytest_cache/
-
-# PostgreSQL
-*.pgsql
-
-# Node (if any frontend inside backend)
+# =========================
+# Node Modules
+# =========================
 node_modules/
 
-# Build files
-dist/
-build/
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development
+.env.production
 
-# Docker
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Runtime Files
+# =========================
+pids
 *.pid
 *.seed
 *.pid.lock
 
-# Celery
-celerybeat-schedule
+# =========================
+# Coverage Directory
+# =========================
+coverage/
 
-# Logs
-logs/
-*.log
+# =========================
+# Build Output
+# =========================
+dist/
+build/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor Folders
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Mac System Files
+# =========================
+.AppleDouble
+.LSOverride
